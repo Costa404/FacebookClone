@@ -1,14 +1,13 @@
-import React from "react";
-import PostingSection from "./PostingSection";
+import CreatePostSection from "./CreatePostSection";
 
 const ContentCentral = () => {
   return (
     <div
-      style={{ width: "calc(100% / 3)" }}
+      style={{ width: "calc(100% / 3)", minWidth: "80rem" }}
       className="
     bg-danger"
     >
-      <PostingSection />
+      <CreatePostSection />
       ContentCentral
     </div>
   );
