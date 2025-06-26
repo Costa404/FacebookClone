@@ -16,7 +16,7 @@ const NavCentral = () => {
   ];
 
   return (
-    <div className="d-flex gap-5">
+    <div className="d-flex gap-5  bg-danger w-100">
       {icons.map((icon, index) => (
         <span
           key={index}

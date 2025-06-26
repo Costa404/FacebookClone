@@ -9,7 +9,7 @@ import NavCentral from "./NavCentral";
 const Navbar = () => {
   return (
     <section className="d-flex justify-content-between p-3 bg-white shadow-sm">
-      <div className="d-flex gap-3">
+      <div className="d-flex gap-3  ">
         <FaFacebook className="fs-1 text-primary" />
         <IoSearchSharp className="fs-1 text-primary" />
       </div>
